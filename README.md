@@ -1,10 +1,15 @@
 # Plot1
 
 getwd()
-kk = setwd('C:/Users/ZCS/Desktop')
+
+kk = setwd('C:/Users/ZCS/Desktop/exdata')
+
 unzip("exdata_data_household_power_consumption.zip", exdir = "exdata")
+
 list.files("exdata")
+
 mydata = read.table(file="household_power_consumption.txt", sep =";", header = TRUE, na.strings = "?")
+
 
 mydata
 
