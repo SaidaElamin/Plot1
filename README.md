@@ -1,4 +1,4 @@
-# Plot1
+# Plot1.R
 
 getwd()
 
